@@ -155,3 +155,39 @@ footer {
     margin-left: auto;
     font-weight: bold;
 }
+
+.cta-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
+    margin: 100px 200px;
+    padding: 48px 128px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-content-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cta-button {
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    max-width: 125px;
+}
